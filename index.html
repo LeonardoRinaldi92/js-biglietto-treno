@@ -19,27 +19,37 @@
                         <input type="number" name="distanza" class="form-control" id="distanza" placeholder="ad esemprio 100.." minlength="2"
                           maxlength="15" required>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="eta" id="eta16">
-                            <label class="form-check-label" for="flexRadioDefault1">
+                        <div>
+                            <input type="radio" name="eta" id="eta16" value="0.8">
+                            <label for="flexRadioDefault1">
                                 Ho meno di 18 anni
                             </label>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="eta" id="eta18">
-                            <label class="form-check-label" for="flexRadioDefault1">
+                        <div>
+                            <input type="radio" name="eta" id="eta18" value="1">
+                            <label for="flexRadioDefault1">
                                 Ho tra 18 e 65 anni
                             </label>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="eta" id="eta65">
+                        <div>
+                            <input type="radio" name="eta" id="eta65" value="0.6">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 Ho + di 65 anni
                           </label>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Vai!</button>
-                          </div>
+                        </div>
+                        <div class="col-12">
+                            <p>
+                                Il tuo prezzo è:
+                            </p>
+                            <span id="prezzoFinale">
+
+                            </span>
+
+                        </div>
+                    
                     </div>
                 </form>
             </div>
