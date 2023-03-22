@@ -21,7 +21,8 @@ form.addEventListener("submit", function (event) {
 
     console.log(sconto);
 
-    let prezzo = (distanza * 0.21) * sconto
+    let prezzo = ((distanza * 0.21) * sconto).toFixed(2)
+
 
     console.log(prezzo)
 
