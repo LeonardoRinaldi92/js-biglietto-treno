@@ -17,6 +17,7 @@ form.addEventListener("submit", function (event) {
         document.getElementById('prezzoSconto').innerText = 'Hai risparmiato' + ' ' + (calcolaprezzo(distanza, 1) - calcolaprezzo(distanza, 0.6)).toFixed(2) + " euro, perchè alla categoria over65"    
     } else {
         document.getElementById('prezzoFinale').innerText = calcolaprezzo(distanza, 1) + " euro";
+        document.getElementById('prezzoSconto').innerText = ''
     }
     
 });
